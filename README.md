@@ -127,7 +127,7 @@ Figure 6: Foundry Red Team Agent Framework (PyRIT - Python Risk Identification T
 
 ---
 
-# 8. Disclaimer
+# 6. Disclaimer
 
 This repository demonstrates architecture and engineering practices for enterprise AI systems.  
 It does not contain proprietary data or confidential configurations.
