@@ -32,8 +32,13 @@ The system:
 # 2. High-Level Architecture
 
 ## Logical Flow
+<p align="center">
+  <img src="architecture\High Level Architecture.png" width="1500"/>
+</p>
+<p align="center"><em>
+Figure 1: User Application /workflow → API Gateway → Foundry Agent → Knowledge Base → Knowledge Sources → GPT-5 → Response.
+</em></p>
 
-User Application /workflow → API Gateway → Foundry Agent → Knowledge Base → Knowledge Sources → GPT-5 → Response
 
 ---
 
@@ -50,6 +55,12 @@ The system uses Azure AI Search Agentic Retrieval:
 7. Merged content returned to Agent
 8. GPT-5 generates final grounded response
 
+<p align="center">
+  <img src="architecture\Execution Flow.png" width="800"/>
+</p>
+<p align="center"><em>
+Figure 2: UML Execution Flow.
+</em></p>
 ---
 
 # 4. Security & API Exposure
@@ -74,18 +85,45 @@ This prototype evaluates three levels of evaluation:
 - Citation accuracy checks
 - Hallucination detection
 - Prompt grounding validation
+  
+<p align="center">
+  <img src="evaluation\screenshots\manual\Manual Evaluation 1.png" width="1500"/>
+</p>
+<p align="center"><em>
+Figure 3: Manual Evaluation.
+</em></p>
 
 ## 5.2 Automated Evaluation
 - Synthetic dataset evaluation
 - Curated JSONL dataset evaluation
 - Metric-based scoring
 
+<p align="center">
+  <img src="evaluation\screenshots\automated\Auto_Evaluation_Prepared_Dataset_Results.png" width="1500"/>
+</p>
+<p align="center"><em>
+Figure 4: Automated Evaluation.
+</em></p>
+
 ## 5.3 AI Red Teaming
 - Prompt injection simulation
 - Data exfiltration testing
 - Prohibited action testing
 - Misuse detection
-  
+
+<p align="center">
+  <img src="evaluation\screenshots\Red Teaming\Read Teaming Result.png" width="1500"/>
+</p>
+<p align="center"><em>
+Figure 5: AI Red Team Evaluation.
+</em></p>
+
+<p align="center">
+  <img src="evaluation\screenshots\Red Teaming\PyRIT Framework.jpg" width="1500"/>
+</p>
+<p align="center"><em>
+Figure 6: Foundry Red Team Agent Framework (PyRIT - Python Risk Identification Tool) .
+</em></p>
 ---
 
 # 8. Disclaimer
