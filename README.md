@@ -14,7 +14,7 @@ This repository demonstrates:
 
 ---
 
-# 1. Executive Summary
+# Executive Summary
 
 This project implements a production-style RAG architecture using Azure AI Foundry and Azure AI Search.
 
@@ -29,7 +29,7 @@ The system:
 
 ---
 
-# 2. High-Level Architecture
+# High-Level Architecture
 
 ## Logical Flow
 <p align="center">
@@ -41,7 +41,7 @@ Figure 1: User Application /workflow → API Gateway → Foundry Agent → Knowl
 
 ---
 
-# 3. Agentic Retrieval Execution Flow
+# Agentic Retrieval Execution Flow
 
 The system uses Azure AI Search Agentic Retrieval:
 
@@ -63,7 +63,7 @@ Figure 2: UML Execution Flow.
 
 ---
 
-# 4. Security & API Exposure
+# Security & API Exposure
 
 The published agent can be exposed via:
 
@@ -76,11 +76,11 @@ The published agent can be exposed via:
 
 ---
 
-# 5. Evaluation Strategy
+# Evaluation Strategy
 
 This prototype evaluates three levels of evaluation:
 
-## 5.1 Manual Evaluation
+## Manual Evaluation
 - Multi-turn validation
 - Citation accuracy checks
 - Hallucination detection
@@ -93,7 +93,7 @@ This prototype evaluates three levels of evaluation:
 Figure 3: Manual Evaluation.
 </em></p>
 
-## 5.2 Automated Evaluation
+## Automated Evaluation
 - Synthetic dataset evaluation
 - Curated JSONL dataset evaluation
 - Metric-based scoring
@@ -105,7 +105,7 @@ Figure 3: Manual Evaluation.
 Figure 4: Automated Evaluation.
 </em></p>
 
-## 5.3 AI Red Teaming
+## AI Red Teaming
 - Prompt injection simulation
 - Data exfiltration testing
 - Prohibited action testing
@@ -127,7 +127,7 @@ Figure 6: Foundry Red Team Agent Framework (PyRIT - Python Risk Identification T
 
 ---
 
-# 6. Disclaimer
+# Disclaimer
 
 This repository demonstrates architecture and engineering practices for enterprise AI systems.  
 It does not contain proprietary data or confidential configurations.
