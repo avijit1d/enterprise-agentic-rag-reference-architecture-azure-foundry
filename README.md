@@ -112,7 +112,7 @@ Figure 4: Automated Evaluation.
 - Misuse detection
 
 <p align="center">
-  <img src="evaluation\screenshots\Red Teaming\Read Teaming Result.png" width="1500"/>
+  <img src="evaluation\screenshots\Red Teaming\Read Teaming Summary.png" width="1500"/>
 </p>
 <p align="center"><em>
 Figure 5: AI Red Team Evaluation.
