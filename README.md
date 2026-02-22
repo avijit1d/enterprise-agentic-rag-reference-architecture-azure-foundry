@@ -39,7 +39,6 @@ The system:
 Figure 1: User Application /workflow → API Gateway → Foundry Agent → Knowledge Base → Knowledge Sources → GPT-5 → Response.
 </em></p>
 
-
 ---
 
 # 3. Agentic Retrieval Execution Flow
@@ -61,6 +60,7 @@ The system uses Azure AI Search Agentic Retrieval:
 <p align="center"><em>
 Figure 2: UML Execution Flow.
 </em></p>
+
 ---
 
 # 4. Security & API Exposure
@@ -124,6 +124,7 @@ Figure 5: AI Red Team Evaluation.
 <p align="center"><em>
 Figure 6: Foundry Red Team Agent Framework (PyRIT - Python Risk Identification Tool) .
 </em></p>
+
 ---
 
 # 8. Disclaimer
